@@ -7,7 +7,7 @@
 + [练习](exercise.md)
 
 #### Demo代码下载
- [点击下载](sample_helloworld.zip)
+ [点击下载](chapter1/sample_helloworld.zip)
 
  #### 视频教程
  <iframe src="//player.bilibili.com/player.html?aid=584959601&bvid=BV1Pz4y1o7jv&cid=245893348&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="800" height="600"> </iframe>
