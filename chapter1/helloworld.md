@@ -57,3 +57,5 @@ NSLog(@"sum = %i", sum);
 ## 断点调试
 
 在某个语句前面点击，即可添加上断点，点击运行，当代码运行到断点时，即可以XCode底部的Debug Area里看到对应的变量值，用法见视频。
+
+[打赏](../include/donate.md ':include')

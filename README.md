@@ -39,9 +39,9 @@ OC教程的视频除在这个教程内上传外，也会在今日头条（西瓜
 
 在腾讯课堂和网易课堂，我们会对最后三节进行收费，不过收费也会非常便宜。毕竟收了费，所以在腾讯课堂和网易课堂，我们会为大家提供更及时的服务，如果在线解答教程问题，咨询你在OC学习和平时开发中遇到的其它问题等。
 
-[打赏](../include/donate.md ':include')
-
 #### 视频
 <iframe src="//player.bilibili.com/player.html?aid=244944471&bvid=BV1av411k7sZ&cid=245801928&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"
 width="800" height="600"
 > </iframe>
+
+[打赏](../include/donate.md ':include')

@@ -44,3 +44,5 @@ clang -fobjc-arc main.m -o prog1
 ```
 ./prog1
 ```
+
+[打赏](../include/donate.md ':include')
