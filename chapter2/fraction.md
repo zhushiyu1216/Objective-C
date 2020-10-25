@@ -62,13 +62,13 @@ int main (int argc, char *argv[]) {
 
 
 // Fraction.m文件
-- (void) print {
-     NSLog(@"the fraction is %i/%i", numerator, denominator);
-}
 @implementation Fraction
 
 @synthesize numerator, denominator;
 
+- (void) print {
+     NSLog(@"the fraction is %i/%i", numerator, denominator);
+}
 
 @end
 ```
