@@ -11,8 +11,8 @@
 
 本章包含四小节和一个小练习：
 
-+ [分数Fraction类](fraction.md)
-+ [@interface”](interface.md)
-+ [@implementation](implementation.md)
-+ [Fraction实例分析](fraction_example.md)
-+ [练习](exercise.md)
++ [分数Fraction类](chapter2/fraction.md)
++ [@interface”](chapter2/interface.md)
++ [@implementation](chapter2/implementation.md)
++ [Fraction实例分析](chapter2/fraction_example.md)
++ [练习](chapter2/exercise.md)
