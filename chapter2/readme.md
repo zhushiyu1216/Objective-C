@@ -14,5 +14,5 @@
 + [分数Fraction类](fraction.md)
 + [@interface”](interface.md)
 + [@implementation](implementation.md)
-+ [@变量访问与封装”](member_visit.md)
++ [Fraction实例分析](fraction_example.md)
 + [练习](exercise.md)
