@@ -7,7 +7,7 @@
     + [第一个程序“helloworld”](chapter1/helloworld.md)
     + [练习](chapter1/exercise.md)
 + [**2、初识类、对象和方法**](chapter2/readme.md)
-    + [实例和方法](chapter2/object.md)
+    + [分数Fraction类](chapter2/fraction.md)
     + [@interface](chapter2/interface.md)
     + [@implementation](chapter2/implementation.md)
     + [变量访问与封装](chapter2/member_visit.md)
