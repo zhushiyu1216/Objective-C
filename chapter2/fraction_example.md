@@ -4,10 +4,9 @@
 
 为了便于理解成员变量等，更深入了解类的定义，我们不使用@property命令来声明属性，每一个变量都自己写，并自行进行封装。
 
-##1、先定义Fraction类，即`@interface`部分：
+## 1、先定义Fraction类，即`@interface`部分：
 
 ``` objc
-
 #import <Foundation/Foundation.h>
 @interface Fraction : NSObject
 
