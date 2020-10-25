@@ -1,6 +1,6 @@
 # Fraction类实例分析
 
-这一小节我们结构Fraction类，把OC中类的定义、实例化、变量封状、方法访问等都串起来讲一下。
+这一小节我们结构Fraction类，把OC中类的定义、实例化、变量封装、方法访问等都串起来讲一下。
 
 为了便于理解成员变量等，更深入了解类的定义，我们不使用@property命令来声明属性，每一个变量都自己写，并自行进行封装。
 
@@ -87,6 +87,6 @@ int main (int argc, char * argv[]) {
 
 对于程序调用部分，还有以下几点说明：  
 （1）要理解这里的fraction指针，它存储的只是Fraction对象在内存中的地址，而不是对象本身，跟C的指针意义是一样的；  
-（2）alloc分配内容和init初始化两个方法都是Fraction从父类NSObject中继承来的；  
+（2）alloc分配内存和init初始化两个方法都是Fraction从父类NSObject中继承来的；  
 （3）alloc + init两个方法还有一个简便的替代方法：[Fraction new]；不过一般不使用这个方法，平时定义类时要在init方法中附加一些参数的初始化；  
 （4）OC中常称方法调用为消息发送，比如[fraction print]一般称为：print方法发送给fraction；
