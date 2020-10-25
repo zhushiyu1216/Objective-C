@@ -10,7 +10,7 @@
     + [分数Fraction类](chapter2/fraction.md)
     + [@interface](chapter2/interface.md)
     + [@implementation](chapter2/implementation.md)
-    + [Fraction实例分析](fraction_example.md)
+    + [Fraction实例分析](chapter2/fraction_example.md)
     + [练习](chapter2/exercise.md)
 + [**3、数据类型和表达式**](chapter3/readme.md)
     + [数据类型](chapter3/data_type.md)
