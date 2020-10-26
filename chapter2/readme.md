@@ -18,7 +18,7 @@
 + [练习](chapter2/exercise.md)
 
 #### Demo代码下载
- [点击下载](chapter1/FractionExample.zip)
+ [点击下载](chapter2/FractionExample.zip)
 
  #### 视频教程
  <iframe src="//player.bilibili.com/player.html?aid=542501533&bvid=BV1Si4y1j7ww&cid=249591264&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="800" height="600"> </iframe>
