@@ -80,6 +80,10 @@ int main(int argc, const char * argv[]) {
         [c multiply: 5];
         
         NSLog(@"the result is %g", c.accumulator);
+
+        [c clear];
+        [c add: 30.5];
+        NSLog(@"the result is %g", c.accumulator);
     }
     return 0;
 }
