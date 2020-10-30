@@ -6,7 +6,7 @@
 
 本章包含三小节和一个小练习：
 
-+ [数据类型](chapter2/datatype.md)
-+ [表达式](chapter2/expression.md)
++ [数据类型](chapter3/datatype.md)
++ [表达式](chapter3/expression.md)
 + [Calculator类](chapter3/calculator_sample.md)
 + [练习](chapter3/exercise.md)
