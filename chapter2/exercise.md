@@ -5,7 +5,7 @@
 2、定义一个XYPoint类，它保存着(x, y)坐标值，并且有一个print方法打印，使用@property命令来实现x, y信息。
 
 #### Demo代码下载
- [点击下载](chapter2/Chapter2Exercise.zip)
+ [点击下载](http://objective-c.codebook.cf/chapter2/Chapter2Exercise.zip)
 
  #### 视频教程
 <iframe src="//player.bilibili.com/player.html?aid=970063420&bvid=BV17p4y1k7ce&cid=249900199&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="800" height="600"> </iframe>

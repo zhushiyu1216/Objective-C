@@ -12,9 +12,9 @@
 + [练习](chapter3/exercise.md)
 
 #### Demo代码下载
- [点击下载](chapter3/DataType.zip)
+ [点击下载](http://objective-c.codebook.cf/chapter3/DataType.zip)
 
  #### 视频教程
- <iframe src="//player.bilibili.com/player.html?aid=712729092&bvid=BV1TD4y1R7pU&cid=251310428&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="800" height="600"> </iframe>
+ <iframe src="//player.bilibili.com/player.html?aid=712729092&bvid=BV1TD4y1R7pU&cid=251310428&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="800" height="600"> </iframe>  
 
- [打赏](../include/donate.md ':include')
+[打赏](../include/donate.md ':include')
