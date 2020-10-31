@@ -45,7 +45,7 @@ if (b) {
 }
 
 if (!b) {
-  NSLOg(@"b = %@", b ? "YES" : "NO");
+  NSLog(@"b = %@", b ? @"YES" : @"NO");
 }
 ```
 
