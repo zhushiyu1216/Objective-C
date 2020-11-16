@@ -1,10 +1,10 @@
-# 条件语句
-条件语句我们平时使用的比较多，大家应该也都会比较熟悉，我们这里只做一下汇总。
+# 选择结构
+选择结构又叫条件语句，条件语句我们平时使用的比较多，大家应该也都会比较熟悉，我们这里只做一下汇总。
 
 ## if 语句
-*if (条件) {*
-*&nbsp;&nbsp;执行语句*
-*}*
+*if (条件) {*  
+*&nbsp;&nbsp;执行语句*  
+*}*  
 
 ``` objc
 int number;
@@ -15,10 +15,10 @@ if (number < 5) {
 ```
 
 ## if else语句
-*if (条件) {*
-*&nbsp;&nbsp;执行语句*
-*} else {*
-*&nbsp;&nbsp;执行语句*
+*if (条件) {*  
+*&nbsp;&nbsp;执行语句*  
+*} else {*  
+*&nbsp;&nbsp;执行语句*  
 *}*
 
 ``` objc
@@ -41,13 +41,25 @@ if (5 < number && number < 15) {
 ```
 
 ## else if 语句
-*if (条件) {*
-*&nbsp;&nbsp;执行语句*
-*} else if {*
-*&nbsp;&nbsp;执行语句*
-*} else {*
-*&nbsp;&nbsp;执行语句*
-*}*
+*if (条件) {*  
+*&nbsp;&nbsp;执行语句*  
+*} else if (条件) {*  
+*&nbsp;&nbsp;执行语句*  
+*} else {*  
+*&nbsp;&nbsp;执行语句*  
+*}*  
+
+``` objc
+int number;
+scanf("%i", &number);
+if (number < 5) {
+  NSLog(@"number is too less");
+} else if (number < 10) {
+  NSLog(@"number is %i", number);
+} else {
+  NSLog(@"number is big, %i", number);
+}
+```
 
 ## switch语句
 ```
