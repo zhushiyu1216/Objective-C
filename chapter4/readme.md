@@ -9,3 +9,11 @@
 + [循环结构](chapter4/loop.md)
 + [选择结构](chapter4/condition.md)
 + [练习](chapter4/exercise.md)
+
+#### Demo代码下载
+ [点击下载](http://objective-c.codebook.cf/chapter4/loop_condition.zip)
+
+ #### 视频教程
+ <iframe src="//player.bilibili.com/player.html?aid=970367377&bvid=BV1Hp4y1r7cb&cid=257006091&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="800" height="600"> </iframe>
+
+[打赏](../include/donate.md ':include')
