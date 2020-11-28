@@ -5,7 +5,7 @@
 局部变量就是在方法内声明的变量，我们还以上一章讲循环语句讲的求最大公约数的方法来看一下：
 
 ``` objc
-- int findMaxDivisor: (int) number1 andNumber2: (int number2) {
+- (int) findMaxDivisor: (int) number1 andNumber2: (int number2) {
   int bigger = MAX(number1, number2);
   int less = MIN(number1, number2);
     
@@ -29,14 +29,16 @@
 
 ## 方法参数的值是如何传递的
 
-OC中方法的参数是传递时都使用的是值传递，即copy传递。这是什么意思呢？就是说方法内对入参进行修改，都不会影响传递进来的变量。我们先看一下基本数据类型的传递：
+OC中方法的参数在传递时都使用的是值传递，即copy传递。这是什么意思呢？就是说方法内对入参进行修改，都不会影响传递进来的变量。我们先看一下基本数据类型的传递：
 
 ``` objc
 int a = 10;
-void handleA: (int) b {
+- (void) handleA: (int) b {
   b = 15;
 }
-handleA(a);
+
+
+[self handleA: a];
 NSLog(@"a = %i", a);
 ```
 
@@ -45,7 +47,7 @@ NSLog(@"a = %i", a);
 再看看对象类型的参数，我们以Fraction的add为实例看看：
 
 ``` objc
-- void add: (Fraction *) a {
+- (void) add: (Fraction *) a {
   a.numerator = 15;
 }
 
@@ -64,7 +66,7 @@ NSLog(@"f.numerator = %i", f.numerator);
 那基本数据类型的参数也想在方法内修改，要怎么实现呢？此时要将参数也定义为指针类型，同时，在传递时使用变量引用，如：
 
 ``` objc
-void handle: (int *) a {
+- (void) handle: (int *) a {
   *a = 15;
 }
 
@@ -75,7 +77,7 @@ NSLog(@"i = %i", i);
 ```
 
 ## static关键字修饰局部变量时它的作用是什么
-static在修饰变量时，跟C是一样的，这个变量只被初始化一次，且在方法完后不会释放，下次进入后还可以继续使用。static修饰局部变量时，常用来计数，如我们想统计一下一个页面共展示了多少次:
+static在修饰变量时，跟C是一样的，这个变量只被初始化一次，且在方法执行完后不会释放，下次进入后还可以继续使用。static修饰局部变量时，常用来计数，如我们想统计一下一个页面共展示了多少次:
 
 ``` objc
 - (int) showPage {
