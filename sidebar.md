@@ -31,7 +31,7 @@
     + [OC类的继承关系](chapter6/inheritance_relatation.md)
     + [子类扩展新方法](chapter6/subclass_add_methods.md)
     + [子类覆盖父类的方法](chapter6/override_method.md)
-    + [类中含类](chapter6/object_member.md)
+    + [类中包含类](chapter6/object_member.md)
     + [练习](chapter6/exercise.md)
 + [**7、多态、动态绑定**](chapter8/readme.md)
     + [多态的概念](chapter8/dynamic_type.md)
