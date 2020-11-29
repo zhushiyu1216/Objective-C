@@ -10,3 +10,11 @@
 + [局部变量](chapter5/local_var.md)
 + [方法中分配对象](chapter5/alloc_obj_in_method.md)
 + [练习](chapter5/exercise.md)
+
+#### Demo代码下载
+ [点击下载](http://objective-c.codebook.cf/chapter5/OC_Class.zip)
+
+ #### 视频教程
+ <iframe src="//player.bilibili.com/player.html?aid=500404620&bvid=BV16K411V7KW&cid=260847595&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="800" height="600"> </iframe>
+
+[打赏](../include/donate.md ':include')

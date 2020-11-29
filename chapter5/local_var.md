@@ -5,7 +5,7 @@
 局部变量就是在方法内声明的变量，我们还以上一章讲循环语句讲的求最大公约数的方法来看一下：
 
 ``` objc
-- (int) findMaxDivisor: (int) number1 andNumber2: (int number2) {
+- (int) findMaxDivisor: (int) number1 andNumber2: (int) number2 {
   int bigger = MAX(number1, number2);
   int less = MIN(number1, number2);
     

@@ -6,7 +6,7 @@
 我们在属性一节讲到，每个属性会被生成一个set方法，这样比较方便我们对一个属性赋值，但如果想一次对多个属性赋值，则就需一个一个属性的写，显得没那么方便。此时比较常见的方式是定义一个多参数的set方法，如：
 
 ``` objc
-- void setAge: (int) age andName: (NSString*) name andWeight: (float) weight;
+- (void) setAge: (int) age andName: (NSString*) name andWeight: (float) weight;
 ```
 
 上边这个方法可以一次性设置多个属性，对每一个参数都有一个命名，同时，OC里常用`and`进行一下关联，这样显得方法更容易阅读。
