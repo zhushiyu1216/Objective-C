@@ -101,18 +101,19 @@ int main (int argc, char *argv[]) {
 ``` objc
 @implementation Rectangle 
 ...
+@synthesize origin = _origin;
 - (XYPoint *) origin {
   XYPoint *point = [[XYPoint alloc] init];
-  [point setX: origin.x andY: origin.y];
+  [point setX: _origin.x andY: _origin.y];
   return point;
 }
 
 - (void) setOrigin: (XYPoint *) originParam {
-  if (origin == nil) {
-    origin = [[XYPoint alloc] init];
+  if (_origin == nil) {
+    _origin = [[XYPoint alloc] init];
   }
 
-  [origin setX: originParam.x andY: originParam.y];
+  [_origin setX: originParam.x andY: originParam.y];
 }
 @end
 ```
