@@ -30,3 +30,11 @@
 + [子类覆盖父类的方法](chapter6/override_method.md)
 + [类中含类](chapter6/object_member.md)
 + [练习](chapter6/exercise.md)
+
+#### Demo代码下载
+ [点击下载](http://objective-c.codebook.cf/chapter6/OC_inherit.zip)
+
+ #### 视频教程
+ <iframe src="//player.bilibili.com/player.html?aid=801012811&bvid=BV1Fy4y1v7uz&cid=277014827&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="800" height="600"> </iframe>
+
+[打赏](../include/donate.md ':include')
