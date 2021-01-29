@@ -16,3 +16,11 @@
 |   |
 -----
 ```
+
+#### Demo代码下载
+ [点击下载](http://objective-c.codebook.cf/chapter6/OC_inherit_exercise.zip)
+
+ #### 视频教程
+<iframe src="//player.bilibili.com/player.html?aid=331450261&bvid=BV1qA411u78n&cid=289064915&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="800" height="600"> </iframe>
+
+[打赏](../include/donate.md ':include')
